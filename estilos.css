@@ -1,0 +1,23 @@
+.contenedor{
+    display: flex;
+      /*flex-direction: column-reverse;*/
+        /*flex-direction: 
+        -row
+        -row-reverse
+        -column
+        -column-reverse
+        */
+        flex-wrap: wrap;
+        /*flex-direction: row;*/
+        /* justify-content:flex-start; /*su tamaño se ajusta al contenedor que se tiene*/
+        align-items: flex-end; /*stretc, flex-start, */
+}
+
+.elemento{
+    width: 25%;
+    background-color: violet;
+    height: 30px;
+    margin: 5px;
+    border: solid;
+    text-align: center;
+}
